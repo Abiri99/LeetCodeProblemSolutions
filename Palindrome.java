@@ -1,7 +1,7 @@
-class Solution {
+class Palindrome {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Palindrome solution = new Palindrome();
         System.out.println("result: " + String.valueOf(solution.isPalindrome(1221)));
         System.out.println("result: " + String.valueOf(solution.isPalindrome(1442323423)));
     }
