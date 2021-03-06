@@ -37,7 +37,7 @@ public class RomanToInt {
                 break;
             case 'X':
                 if (i == s.length() - 1) {
-                    result += 50;
+                    result += 10;
                 } else if (s.charAt(i + 1) == 'L') {
                     result += 40;
                     i++;
@@ -45,7 +45,7 @@ public class RomanToInt {
                     result += 90;
                     i++;
                 } else {
-                    result += 50;
+                    result += 10;
                 }
                 break;
             case 'C':
